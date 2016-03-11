@@ -9,7 +9,7 @@ def better_fizzbuzz():
         if x % 5 == 0:
             msg += "Buzz"
 
-        if msg: print '{0} {1}'.format(x, msg)
+        print '{0} {1}'.format(x, msg)
 
 
 def fizzbuzz():
